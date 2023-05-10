@@ -5,25 +5,172 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
     <title>Primera practica</title>
 </head>
 
-<body
-    style="border:0;width:100%;display:flex;background: rgb(16,161,43);
-background: linear-gradient(135deg, rgba(16,161,43,1) 21%, rgb(140, 152, 152) 39%, rgb(116, 187, 98) 63%, rgb(35, 195, 190) 77%);background-repeat: no-repeat;">
-    <img src="./images/me.jpg" alt="Foto personal" style="width:500px;height:500px">
-    <p style="text-align:center;font-size:25px"><b> ¡Hola a todos! Mi nombre es Eduardo Cadavid García y me complace compartir con
-            ustedes un poco sobre mi vida y mis experiencias.
-            <!-- <br>
-            Nací el 30 de junio de 1997, lo cual me convierte en un orgulloso miembro de la generación de los 90. Desde
-            joven, siempre estuve fascinado por la tecnología y su capacidad para transformar nuestras vidas.
-            <br>
-            Actualmente, resido en la hermosa ciudad de Medellín, Colombia. Esta vibrante y acogedora ciudad ofrece una
-            combinación única de cultura, naturaleza y emprendimiento. Me siento afortunado de llamar a esta ciudad mi
-            hogar
-            y de formar parte de su próspera comunidad tecnológica. -->
-        </b>
-    </p>
-</body>
+<body>
+    <div>
 
+
+        <nav class="navbar">
+            <a class="navbar-text" href='#personal_info'>Información Personal</a>
+            <a class="navbar-text" href='#hobbies'>Hobbies</a>
+            <a class="navbar-text" href='#interests'>Intereses personales</a>
+            <a class="navbar-text" href='#hard-skills'>Hard Skills</a>
+            <a class="navbar-text" href='#class'>Clases</a>
+            <a class="navbar-text" href='#projects'>Proyectos</a>
+        </nav>
+        <h1>Eduardo Cadavid García</h1>
+        <div class="container" id="personal_info">
+            <img src="./images/me.jpg" alt="Foto personal" id="personal_pic">
+            <p id="texto"><b> ¡Hola a todos! Mi nombre es Eduardo Cadavid García y me complace compartir con
+                    ustedes un poco sobre mi vida y mis experiencias.
+                    <br>
+                    Nací el 30 de junio de 1997, lo cual me convierte en un orgulloso miembro de la generación de los
+                    90.
+                    Desde
+                    joven, siempre estuve fascinado por la tecnología y su capacidad para transformar nuestras vidas.
+                    <br>
+                    Actualmente, resido en la hermosa ciudad de Medellín, Colombia. Esta vibrante y acogedora ciudad
+                    ofrece
+                    una
+                    combinación única de cultura, naturaleza y emprendimiento. Me siento afortunado de llamar a esta
+                    ciudad
+                    mi
+                    hogar
+                    y de formar parte de su próspera comunidad tecnológica.
+                </b>
+            </p>
+        </div>
+        <div class="adicional_information">
+            <section>
+                <div class="hobbies" id="hoobies">
+                    <h2>Hobbies</h2>
+                    <ul>
+                        <li>Estudiar</li>
+                        <li>Jugar play</li>
+                        <li>Escuchar musica</li>
+                        <li>Enseñar</li>
+                        <li>Programar</li>
+                        <li>Realizar proyectos personales</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="interests" id="interests">
+                    <h2>Intereses prioritarios</h2>
+                    <ol>
+                        <li>Conseguir empleo remoto como desarrollador</li>
+                        <li>Comprar Casa</li>
+                        <li>Finalizar el estudio</li>
+                    </ol>
+                </div>
+            </section>
+            <section>
+                <div class="hard-skills" id="hard-skills">
+                    <table class="border">
+                        <caption>
+                            <h2>Hard Skills</h2>
+                        </caption>
+                        <thead>
+                            <tr>
+                                <th>Lenguajes de programacion</th>
+                                <th>Desarrollo Frontend</th>
+                                <th>Desarrollo Backend</th>
+                                <th>Desarrollo móvil</th>
+                                <th>Bases de datos</th>
+                                <th>Framework</th>
+                                <th>Cloud</th>
+                                <th>Software</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Java</td>
+                                <td>HTML 5</td>
+                                <td>Node JS</td>
+                                <td>Java</td>
+                                <td>Mysql</td>
+                                <td>SpringBoot</td>
+                                <td>Azure</td>
+                                <td>Figma</td>
+
+
+                            </tr>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>CSS 3</td>
+                                <td>Spring</td>
+                                <td>Kotlin</td>
+                                <td>Sql Server</td>
+                                <td>Express</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+
+                                <td>Python</td>
+                                <td>Bootstrap</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>Oracle</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>-</td>
+                                <td>React</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>Postgresql</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+
+                            </tr>
+                            <tr>
+                                <td>-</td>
+                                <td>Angular</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>MongoDB</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                            <tr>
+                                <td>-</td>
+                                <td>Materialize</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            <section id="#class">
+                    <h2>Videos de clases de python</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7MREhdEjPFk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                </section>
+                <section id="projects">
+                    <h2>Proyectos</h2>
+                    <ul>
+                        <li>Dashboard de requemientos en java- sql server</li>
+                        <li>Software para la gestión de operaciones y conciliaciones con el Fondo de Garantías Agropecuarias</li>
+                        <li>Software para conciliaciones contables.</li>
+                        <li>Software para verificar estados financieros</li>
+                        <li>Software para verificar situacione de impacto nacional</li>
+                    </ul>
+                </section>
+        </div>
+</body>
 </html>
