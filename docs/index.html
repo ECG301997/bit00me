@@ -10,20 +10,21 @@
 </head>
 
 <body>
+    <nav class="navbar">
+        <a class="navbar-text" href='#personal_info'>Información Personal</a>
+        <a class="navbar-text" href='#hobbies'>Hobbies</a>
+        <a class="navbar-text" href='#interests'>Intereses personales</a>
+        <a class="navbar-text" href='#hard-skills'>Hard Skills</a>
+        <a class="navbar-text" href='#class'>Clases</a>
+        <a class="navbar-text" href='#projects'>Proyectos</a>
+    </nav>
     <div>
-
-
-        <nav class="navbar">
-            <a class="navbar-text" href='#personal_info'>Información Personal</a>
-            <a class="navbar-text" href='#hobbies'>Hobbies</a>
-            <a class="navbar-text" href='#interests'>Intereses personales</a>
-            <a class="navbar-text" href='#hard-skills'>Hard Skills</a>
-            <a class="navbar-text" href='#class'>Clases</a>
-            <a class="navbar-text" href='#projects'>Proyectos</a>
-        </nav>
         <h1>Eduardo Cadavid García</h1>
         <div class="container" id="personal_info">
-            <img src="./images/me.jpg" alt="Foto personal" id="personal_pic">
+            <figure>
+                <img src="./images/me.jpg" alt="Foto personal" id="personal_pic">
+                <figcaption>Desarrollador Full Stack</figcaption>
+            </figure>
             <p id="texto"><b> ¡Hola a todos! Mi nombre es Eduardo Cadavid García y me complace compartir con
                     ustedes un poco sobre mi vida y mis experiencias.
                     <br>
@@ -157,7 +158,7 @@
             <section id="#class">
                     <h2>Videos de clases de python</h2>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/7MREhdEjPFk"
-                    title="YouTube video player" frameborder="0"
+                    title="YouTube video player"W
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen></iframe>
                 </section>
@@ -172,5 +173,23 @@
                     </ul>
                 </section>
         </div>
+        <div class="contact">
+            <form action="">
+                <label>Nombre: <input type="text"></label><br>
+                <label>Apellidos: <input type="text"></label><br>
+                <label>Telefono: <input type="tel"></label><br>
+                <label>Email: <input type="email"></label><br>
+                <label>Seleccine el motivo de consulta</label><br>
+                <select name="problem" id="">
+                    <option value="1">Asesorias</option>
+                    <option value="2">Clases personalizadas</option>
+                    <option value="3">Desarrollo de páginas web</option>
+                    <option value="4">Desarrollo backend</option>
+                </select>
+                <input type="submit">
+            </form>
+        </div>
+
+        
 </body>
 </html>
